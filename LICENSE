@@ -1,54 +1,47 @@
-# **AFNSec Guacamole Extensions — License Agreement**
+AFNSec Guacamole Extensions — License Agreement
 
-**Copyright © 2025 AFNSec. All rights reserved.**
+Copyright © 2025 AFNSec. All rights reserved.
 
-These binary software extensions (“**Software**”) are provided by **AFNSec** for use with **Apache Guacamole**.
+These binary software extensions (“Software”) are provided by AFNSec for use with Apache Guacamole.
 
----
+1. License Grant
 
-## **1. License Grant**
-AFNSec grants you a **non-exclusive, royalty-free license** to download and use the Software **for personal or internal organizational use only** with Apache Guacamole.
+AFNSec grants you a non exclusive, royalty free license to download and use the Software for personal or internal organizational use only with Apache Guacamole.
 
----
+2. Restrictions
 
-## **2. Restrictions**
-You may **not**:
+You may not:
 
-- **Modify, reverse-engineer, decompile, disassemble,** or attempt to derive the source code of the Software.  
-- **Redistribute, sell, sublicense, include, or host** the Software in any commercial, resale, service, or bundled offering.  
-- **Remove or alter** any proprietary notices contained in the Software.
+Modify, reverse-engineer, decompile, disassemble, or attempt to derive the source code of the Software.
 
----
+Redistribute, sell, sublicense, include, or host the Software in any commercial, resale, service, or bundled offering.
 
-## **3. Ownership**
-The Software is proprietary to **AFNSec** and protected by copyright and international treaties.  
-This license **does not transfer ownership**.
+Remove or alter any proprietary notices contained in the Software.
 
----
+3. Ownership
 
-## **4. Compatibility Notice**
-This Software is designed to operate with **Apache Guacamole**, which is licensed separately under the  
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
+The Software is proprietary to AFNSec and protected by copyright and international treaties.
+This license does not transfer ownership.
+
+4. Compatibility Notice
+
+This Software is designed to operate with Apache Guacamole, which is licensed separately under the Apache License 2.0
+.
 Nothing in this license affects your rights or obligations under that license.
 
----
+5. Disclaimer of Warranty
 
-## **5. Disclaimer of Warranty**
-The Software is provided **“AS IS,”** without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
+The Software is provided “AS IS,” without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
 
----
+6. Limitation of Liability
 
-## **6. Limitation of Liability**
-In no event shall **AFNSec** or its contributors be liable for any indirect, incidental, special, or consequential damages arising from the use or inability to use the Software.
+In no event shall AFNSec or its contributors be liable for any indirect, incidental, special, or consequential damages arising from the use or inability to use the Software.
 
----
+7. Termination
 
-## **7. Termination**
-This license terminates automatically if you breach any term.  
-Upon termination, you must stop using and destroy all copies of the Software.
+This license terminates automatically if you breach any term. Upon termination, you must stop using and destroy all copies of the Software.
 
----
+8. Contact
 
-## **8. Contact**
-**Support and Security Reports**  
-Email: [secops@afnsec.com](mailto:secops@afnsec.com)  
+Support and Security Reports
+Email: secops@afnsec.com
