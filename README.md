@@ -54,7 +54,7 @@ See the full [LICENSE](./LICENSE).
 
 ## 🧠 Support & Security
 
-- **Email:** [secops@afnsec.com](mailto:secops@afnsec.com)
+- **Email:** [info@afnsec.com](mailto:info@afnsec.com)
 
 Please report security issues privately to the email above.
 
