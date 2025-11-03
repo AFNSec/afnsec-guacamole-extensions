@@ -48,7 +48,7 @@ afnsec-guacamole-extensions/
 This software is **free for personal and internal organizational use only**.  
 Redistribution, resale, or modification are **not permitted**.
 
-See the full [LICENSE.md](./LICENSE.md).
+See the full [LICENSE](./LICENSE).
 
 ---
 
