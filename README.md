@@ -1,7 +1,7 @@
 # 🛡️ AFNSec Guacamole Extensions
 
 Official binary releases of proprietary **AFNSec** extensions for [Apache Guacamole](https://guacamole.apache.org/).  
-These add advanced auditing, visibility, and security capabilities to Guacamole, and are **free to use for personal or internal environments**.
+These add advanced features and customization in Apache Guacamole**.
 
 ---
 
