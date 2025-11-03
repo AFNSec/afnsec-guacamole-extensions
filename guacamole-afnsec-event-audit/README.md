@@ -113,16 +113,11 @@ sudo journalctl -u tomcat9 -b | grep afnsec
 
 You should see:
 
-```bash
 [INFO] Loaded extension "AFNSec Event Audit"
-```
 
 and
 
-```bash
 AFNSec audit initialized: transport=[tcp,udp ortls] host=[ip address], port=[port], format=[format], hostname=[hostname]
-```
-
 
 📊 Output Example
 
