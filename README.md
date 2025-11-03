@@ -1,8 +1,7 @@
 # 🛡️ AFNSec Guacamole Extensions
 
 Official binary releases of proprietary **AFNSec** extensions for [Apache Guacamole](https://guacamole.apache.org/).  
-These add advanced features and customization in Apache Guacamole**.
-
+These add advanced features and customization in Apache Guacamole.
 ---
 
 ## 📘 Overview
@@ -55,8 +54,7 @@ See the full [LICENSE.md](./LICENSE.md).
 
 ## 🧠 Support & Security
 
-- **Email:** [secops@afnsec.com](mailto:secops@afnsec.com)  
-- **Website:** [https://intel.afnsec.com](https://intel.afnsec.com)
+- **Email:** [secops@afnsec.com](mailto:secops@afnsec.com)
 
 Please report security issues privately to the email above.
 
