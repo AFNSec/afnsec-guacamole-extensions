@@ -16,9 +16,8 @@ git clone https://github.com/AFNSec/afnsec-guacamole-extensions.git
 
 That will create a local folder:
 
-```cli
 afnsec-guacamole-extensions/
-```
+
 
 Move into the specific extension directory
 ```bash
