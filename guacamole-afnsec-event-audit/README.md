@@ -139,9 +139,14 @@ A typical JSON log event looks like this:
 ```
 📞 Support
 
-For support or security issues:
+For support:
+
+Email: info@afnsec.com
+
+Security issues:
 
 Email: secops@afnsec.com
+
 
 © 2025 AFNSec — All rights reserved.
 Free for personal and internal organizational use only. Redistribution, resale, or modification are not permitted.
