@@ -72,23 +72,48 @@ Open or create /etc/guacamole/guacamole.properties and add the AFNSec audit sett
 
 # Enable or disable the AFNSec event audit extension.
 # Required: true | false
-afnsec-audit.enabled: true
+audit.enable=true
 
 # Destination host or IP
 # Required
-afnsec-audit.syslog-host: 127.0.0.1
+audit.syslog.host=siem.example.net
 
 # Destination port
 # Required
-afnsec-audit.syslog-port: 514
+audit.syslog.port=6514
 
 # Syslog transport: udp | tcp | tls
 # Default: tcp
-afnsec-audit.protocol: tcp
+audit.syslog.transport=tcp
 
 # Output format: json | cef | rfc5424
 # Default: json
-afnsec-audit.format: json
+audit.format=json
+
+# -----------------------------
+# Optional tuning parameters - NOT REQUIRED
+# -----------------------------
+
+# Maximum number of queued audit events (fail-open if exceeded)
+# Default: 5000
+audit.queue.max=5000
+
+# Maximum number of events to send per batch
+# Default: 100
+audit.batch.max=100
+
+# Connection timeout in milliseconds
+# Default: 1000
+audit.timeout.connect=1000
+
+# Maximum retry backoff time in milliseconds
+# Default: 5000
+audit.retry.backoff.max=5000
+
+# Drop events when queue full instead of blocking Guacamole threads
+# Default: true
+audit.drop.on.full=true
+
 
 ```
 
