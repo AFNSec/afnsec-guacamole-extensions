@@ -1,0 +1,110 @@
+/* === AFNSec Block Card — Enterprise Light Version (Final, site-only footer) === */
+
+.automatic-login-rejected-modal .notification {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 28px 28px 26px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow:
+    0 1px 2px rgba(0,0,0,.05),
+    0 16px 40px rgba(0,0,0,.10);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: #111827;
+  line-height: 1.6;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Header logo strip */
+.automatic-login-rejected-modal .notification::before {
+  content: "";
+  display: block;
+  height: 72px;
+  margin: -28px -28px 20px;
+  border-radius: 16px 16px 0 0;
+  background:
+    url("app/ext/afnsec-threat-intel/images/afnsec-logo.svg") no-repeat
+      center 18px / 46px,
+    linear-gradient(180deg, #fbfcfd 0%, #f6f7f9 100%);
+  border-bottom: 1px solid #eceff2;
+}
+
+/* Main message */
+.automatic-login-rejected-modal .notification .message {
+  font-size: 17px;
+  font-weight: 600;
+  color: #111827;
+  margin: 14px 0 18px;
+}
+
+/* Divider line */
+.automatic-login-rejected-modal .notification .message::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #eceff2;
+  margin: 18px auto 14px;
+  width: 100%;
+}
+
+/* Hide the Re-login button */
+.automatic-login-rejected-modal .notification button {
+  display: none !important;
+}
+
+/* Footer strip with site only (safe Unicode bullet) */
+.automatic-login-rejected-modal .notification::after {
+  content: "Protected by  AFNSec Reputation Enforcement  \2022  intel.afnsec.com";
+  display: block;
+  width: calc(100% + 56px);
+  margin: 22px -28px -26px;
+  padding: 12px 28px;
+  background: #fafafa;
+  border-top: 1px solid #e5e7eb;
+  color: #8a94a6;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.1px;
+  position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 520px) {
+  .automatic-login-rejected-modal .notification {
+    padding: 20px 16px 18px;
+    border-radius: 12px;
+  }
+  .automatic-login-rejected-modal .notification::before {
+    height: 60px;
+    margin: -20px -16px 16px;
+    border-radius: 12px 12px 0 0;
+    background-position: center 14px;
+    background-size: 38px;
+  }
+  .automatic-login-rejected-modal .notification::after {
+    width: calc(100% + 32px);
+    margin: 18px -16px -18px;
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+}
+
+/* Light overlay background */
+.automatic-login-rejected-modal guac-modal,
+.automatic-login-rejected-modal .modal-contents {
+  background: rgba(255,255,255,0.95) !important;
+}
+
+/* Subtle fade-in animation */
+.automatic-login-rejected-modal .notification {
+  animation: afnsec-fadein 0.25s ease;
+}
+@keyframes afnsec-fadein {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

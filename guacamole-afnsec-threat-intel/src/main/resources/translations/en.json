@@ -1,0 +1,6 @@
+{
+  "AFNSEC.ERROR_BLOCKED": "Sign-in blocked by AFNSec Threat Intelligence.",
+  "AFNSEC.ERROR_IP_BLOCKED_REPUTATION": "Sign-in blocked by AFNSec Threat Intelligence (IP Reputation policy).",
+  "AFNSEC.ERROR_IP_BLOCKED_GEO": "Sign-in blocked by AFNSec Threat Intelligence (Geo policy).",
+  "AFNSEC.ERROR_PASS_BLOCKED_REPUTATION": "Sign-in blocked by AFNSec Threat Intelligence (Password Reputation policy)."
+}

@@ -1,0 +1,71 @@
+/* AFNSec Enterprise Top Banner (v2.2) */
+
+.afnsec-top {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 2147483647;
+  background: linear-gradient(180deg, rgba(14,23,38,.98) 0%, rgba(14,23,38,.94) 100%);
+  color: #e5e7eb; /* slate-200 */
+  box-shadow: 0 10px 28px rgba(0,0,0,.35);
+  border-bottom: 1px solid rgba(148,163,184,.18);
+}
+
+.afnsec-top.sev-warning { border-bottom-color: rgba(245,158,11,.35); }  /* amber-500 */
+.afnsec-top.sev-critical{ border-bottom-color: rgba(239,68,68,.35); }   /* red-500 */
+
+.afnsec-top__inner {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+}
+
+.afnsec-top__icon {
+  color: #f59e0b; /* amber-500 */
+  display: flex; align-items: center; justify-content: center;
+}
+
+.afnsec-top__title {
+  font-weight: 700;
+  letter-spacing: .2px;
+  color: #f8fafc; /* slate-50 */
+}
+
+.afnsec-top__text {
+  margin-top: 2px;
+  color: #cbd5e1; /* slate-300 */
+  max-width: 1100px;
+}
+
+.afnsec-top__action {
+  appearance: none;
+  background: #0ea5e9; /* sky-500 */
+  color: #061018;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(14,165,233,.35);
+  transition: transform .12s ease, box-shadow .12s ease;
+  white-space: nowrap;
+}
+.afnsec-top__action:hover  { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(14,165,233,.45); }
+.afnsec-top__action:active { transform: translateY(0);     box-shadow: 0 3px 10px rgba(14,165,233,.35); }
+
+.afnsec-top__close {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: #9ca3af; /* gray-400 */
+  font-size: 18px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.afnsec-top__close:hover { color: #e5e7eb; background: rgba(148,163,184,.12); }
+
+@media (prefers-reduced-motion: reduce) {
+  .afnsec-top__action { transition: none; }
+}
+

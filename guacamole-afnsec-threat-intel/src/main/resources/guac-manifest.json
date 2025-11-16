@@ -1,0 +1,32 @@
+{
+  "guacamoleVersion": "1.6.0",
+  "name": "AFNSec Threat Intelligence GUAC Connector",
+  "namespace": "afnsec-threat-intel",
+
+  "authProviders": [
+    "com.afnsec.intel.DelegatingAuthProvider"
+  ],
+
+  "listeners": [
+    "com.afnsec.intel.IntelAuthenticationListener"
+  ],
+  "translations": [
+    "translations/en.json",
+    "translations/fr.json"
+
+  ],
+  "js": [
+    "afnsec-warn.js"
+  ],
+  "css": [
+    "afnsec-warn.css",
+    "afnsec-block.css"
+  ],
+
+  "resources": {
+    "afnsec-warn.js": "application/javascript",
+    "images/afnsec-logo.svg": "image/svg+xml",
+    "afnsec-warn.css": "text/css",
+    "afnsec-block.css": "text/css"
+  }
+}
