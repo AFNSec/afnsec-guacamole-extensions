@@ -1,6 +1,0 @@
-{
-  "AFNSEC.ERROR_BLOCKED": "Connexion bloquée par AFNSec Threat Intelligence.",
-  "AFNSEC.ERROR_IP_BLOCKED_REPUTATION": "Connexion bloquée par AFNSec Threat Intelligence (politique de réputation IP).",
-  "AFNSEC.ERROR_IP_BLOCKED_GEO": "Connexion bloquée par AFNSec Threat Intelligence (politique géographique).",
-  "AFNSEC.ERROR_PASS_BLOCKED_REPUTATION": "Connexion bloquée par AFNSec Threat Intelligence (politique de réputation du mot de passe)."
-}
