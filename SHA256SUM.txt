@@ -1,0 +1,1 @@
+edaa92100fd91b4626d3edb3e2e770a66142018ccf1bd08756fd75e97ac08f92  guacamole-afnsec-event-audit-1.0.jar
