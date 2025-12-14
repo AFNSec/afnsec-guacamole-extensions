@@ -28,7 +28,7 @@ All are designed to integrate cleanly with standard Apache Guacamole installatio
 
 See: [`/guacamole-afnsec-event-audit/README.md`](./guacamole-afnsec-event-audit/README.md)
 
-See: [`/guacamole-afnsec-threat-intel/README.md`](./guacamole-afnsec-event-audit/README.md)
+See: [`/guacamole-afnsec-threat-intel/README.md`](./guacamole-afnsec-threat-intel/README.md)
 
 ---
 
