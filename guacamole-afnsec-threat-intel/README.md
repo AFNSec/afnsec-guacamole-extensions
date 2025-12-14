@@ -1,6 +1,6 @@
 # 🛡️ AFNSec Guacamole Threat Intelligence Extension (BETA)
 
-Official binary releases of proprietary **AFNSec** extensions for [Apache Guacamole](https://guacamole.apache.org/).  
+Official binary releases of free **AFNSec** extensions for [Apache Guacamole](https://guacamole.apache.org/).  
 These add advanced features and customization in Apache Guacamole.
 ---
 
