@@ -14,7 +14,7 @@ Each extension folder includes its own:
 - Individual README with setup and verification steps  
 - License reference  
 
-The extensions are **closed-source** and **not for redistribution, resale, or modification**.  
+The extensions are **closed-source**, **free to use** and **not for redistribution, resale, or modification**.  
 All are designed to integrate cleanly with standard Apache Guacamole installations.
 
 ---
