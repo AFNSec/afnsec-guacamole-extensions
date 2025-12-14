@@ -21,10 +21,10 @@ All are designed to integrate cleanly with standard Apache Guacamole installatio
 
 ## 📦 Current Release
 
-| Extension        | Description | Guacamole Version | Release |
-|------------------|--------------|-------------------|----------|
+| Extension        | Description                                                            | Guacamole Version | Release |
+|------------------|------------------------------------------------------------------------|-------------------|----------|
 | **Event Audit**  | Structured syslog, JSON, and CEF audit logging for Guacamole sessions. | 1.6.x             | 1.0.0 |
-| **Threat Intel** | Provide IP reputation and Geo blocking. | 1.5+              | 1.0.0 |
+| **Threat Intel** | Provide IP reputation, Password reputation and Geo blocking.           | 1.5+              | 1.0.0 |
 
 See: [`/guacamole-afnsec-event-audit/README.md`](./guacamole-afnsec-event-audit/README.md)
 
