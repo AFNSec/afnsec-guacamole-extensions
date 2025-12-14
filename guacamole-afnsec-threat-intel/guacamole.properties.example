@@ -1,0 +1,84 @@
+######################################################################
+# AFNSec Threat Intelligence Extension – Example Configuration
+#
+# Copy relevant lines into your main guacamole.properties and adjust.
+# Properties not specified will use defaults shown below.
+######################################################################
+
+# ===================== REQUIRED ======================
+
+# API key for AFNSec Intel cloud service (mandatory).
+afnsec-intel-api-key: YOUR_API_KEY_HERE
+
+# Verdicts to treat as malicious (CSV). REQUIRED.
+# Allowed values: malicious,suspicious
+afnsec-intel-ipreputation: malicious,suspicious
+
+# ===================== OPTIONAL ======================
+
+# Allow logins if API is unreachable (default: true).
+# Set to false to block users during API outage.
+afnsec-intel-allow-on-api-error: true
+
+# Cache lifetime for reputation results in seconds (default: 30).
+afnsec-intel-cache-ttl-seconds: 30
+
+# UI detail level for error messages/banners.
+# Options: default | category
+afnsec-intel-ui-detail: default
+
+# ------------- IP Reputation -------------
+
+# Enforcement mode for IP reputation checks (default: enforce).
+# Options: enforce | monitor
+afnsec-intel-ipreputation-mode: enforce
+
+# ------------- Geo Filtering -------------
+
+# Blocked country codes (CSV of ISO 3166-1 alpha-2 codes).
+afnsec-intel-block-countrycode: CN,RU
+
+# Blocked continents (CSV of codes: AF, EU, NA, SA, AS, OC, AN).
+afnsec-intel-block-continent: AS,AF
+
+# Enforcement mode for geo filtering (default: enforce).
+# Options: enforce | monitor
+afnsec-intel-geofilter-mode: enforce
+
+# ------------- Password Reputation -------------
+
+# Password hash reputation mode (default: enforce).
+# Options:
+#   enforce → block if found
+#   monitor → allow but log
+#   warn    → allow but show banner
+afnsec-intel-passwordcheck-mode: enforce
+
+# ------------- Health Agent -------------
+
+# Enable background health agent (default: enabled).
+afnsec-intel-health-agent: enabled
+
+# Interval between health checks in seconds (default: 45).
+afnsec-intel-health-interval-seconds: 45
+
+# Number of consecutive failures before service is marked DOWN (default: 3).
+afnsec-intel-health-failure-threshold: 3
+
+# Number of consecutive successes before recovering to UP (default: 3).
+afnsec-intel-health-recovery-threshold: 3
+
+# ------------- Enterprise Controls -------------
+
+# Skip lookups for private/loopback IPs (default: true).
+afnsec-intel-skip-private-ip: true
+
+# Require TLSv1.3 for API connections (default: false).
+# If true, blocks use of older TLS versions.
+afnsec-intel-skip-tls13-disabled: false
+
+# Kill switches for enforcement modules (default: true).
+# Set to false to completely disable a module.
+afnsec-intel-kill-password-reputation: true
+afnsec-intel-kill-ip-reputation: true
+afnsec-intel-kill-geo: true
